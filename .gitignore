@@ -1,2 +1,3 @@
 stockenv/
 __pycache__/
+config/*.env
