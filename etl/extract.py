@@ -7,6 +7,6 @@ def fetch_data(ticker: str, start: str, end: str):
     name = symbol.get_info()
     ohlcv_df = yf.download([symbol], start = start, end = end)
     return symbol, name, ohlcv_df
-
+    
 
 
